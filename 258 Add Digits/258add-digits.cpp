@@ -1,0 +1,19 @@
+class Solution {
+public:
+    int addDigits(int num) {
+        int m;
+        if(num==0) return 0;
+        while(num>=10)
+        {
+            long long sum=0;
+              while(num>0)
+                {
+                  m=num%10;
+                  sum+=m;
+                  num=num/10;
+                }
+              num=sum;
+        }  
+        return num;  
+    }
+};
