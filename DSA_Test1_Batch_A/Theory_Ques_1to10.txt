@@ -1,0 +1,57 @@
+Q1. What is an algorithm? List two characteristics of a good algorithm.
+Answer: An algorithm is a step-by-step procedure used to solve a particular problem.
+Two characteristics of a good algorithm are:
+1. It should be clear and easy to understand.
+2. It should produce the correct output in a limited number of steps.
+
+
+Q2. Explain the difference between static and dynamic data structures.
+Answer: Static data structures have a fixed size that cannot be changed during program execution. For example, an array.
+Dynamic data structures can grow or shrink during program execution according to the requirement. For example, a linked list.
+
+
+Q3. What is an abstract data type (ADT)? Give one example.
+Answer: An Abstract Data Type (ADT) is a data type that defines the operations that can be performed on data without showing how they are implemented.
+Example: Stack is an ADT that supports push and pop operations.
+
+
+Q4. What is the difference between a stack's push and pop operations?
+Answer: Push is the operation used to insert an element into a stack.
+Pop is the operation used to remove the top element from a stack.
+
+
+
+Q5. What is a queue's enqueue operation? What happens during dequeue?
+Answer: Enqueue is the operation used to insert an element at the rear of a queue.
+Dequeue is the operation used to remove an element from the front of a queue.
+A queue follows the FIFO (First In, First Out) principle.
+
+
+Q6. What is the best-case and worst-case time complexity of linear search?
+Answer: Best-case time complexity is O(1), when the element is found at the first position.
+Worst-case time complexity is O(n), when the element is at the last position or is not present in the array.
+
+
+Q7. Why must data generally be sorted before applying binary search?
+Answer: Binary search generally requires sorted data because it compares the target element with the middle element and decides whether to search in the left or right half.
+Without sorted data, we cannot correctly eliminate half of the elements.
+
+
+Q8. What is a singly linked list? How is it different from an array?
+Answer: A singly linked list is a linear data structure in which each node contains data and a pointer to the next node.
+Difference:
+1. An array stores elements in continuous memory locations, while linked list nodes can be stored at different memory locations.
+2. Array size is generally fixed, while a linked list can grow or shrink dynamically.
+3. Array elements can be accessed directly using an index, while linked list elements are accessed by traversal.
+
+
+Q9. What is a binary tree? What is the maximum number of children of a node?
+Answer: A binary tree is a non-linear data structure in which each node can have at most two children.
+The two children are called the left child and the right child.
+The maximum number of children of a node is 2.
+
+
+Q10. Differentiate between BFS and DFS at a basic conceptual level.
+Answer: BFS (Breadth First Search) visits nodes level by level. It uses a queue.
+DFS (Depth First Search) explores one branch as deeply as possible before backtracking. It uses a stack or recursion.
+Both are used for traversing graphs and trees.
